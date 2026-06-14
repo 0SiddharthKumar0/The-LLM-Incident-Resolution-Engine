@@ -6,7 +6,6 @@
 ![Qdrant](https://img.shields.io/badge/Qdrant-VectorDB-orange)
 ![Ollama](https://img.shields.io/badge/Ollama-LLM-black)
 ![RAG](https://img.shields.io/badge/RAG-Retrieval--Augmented--Generation-purple)
-Docker
 
 
 ## Overview

@@ -43,7 +43,7 @@ This project demonstrates how modern AI systems can be applied to production ope
 
 
 **Figure 1. High-Level Architecture Overview**
-![System Architecture Overview](docs/images/Architecture_Overview.png)
+![System Architecture Overview](docs/Architecture_Overview.png)
 
 The architecture is organized around a complete incident diagnosis and resolution workflow, beginning with knowledge ingestion and ending with approval-driven operational recommendations.
 

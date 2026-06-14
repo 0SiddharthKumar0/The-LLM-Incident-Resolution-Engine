@@ -1,4 +1,4 @@
-# LLM-Powered Incident Resolution Engine
+# The LLM Incident Resolution Engine
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)

@@ -191,7 +191,7 @@ The platform is built around two continuously connected execution paths: the Kno
 
 
 **Figure 2. Detailed Data Flow and Component Architecture**
-![Detailed Technical Architecture](docs/images/Detailed_Architecture.png)
+![Detailed Technical Architecture](docs/Detailed_Architecture.png)
 
 ### Knowledge Processing Path
 

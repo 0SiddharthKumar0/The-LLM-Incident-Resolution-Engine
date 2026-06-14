@@ -1,0 +1,197 @@
+[
+  {
+    "runbook_id": "RB-001",
+    "title": "Database Connection Exhaustion",
+    "category": "database",
+    "steps": [
+      "Check active database connections",
+      "Identify long-running queries",
+      "Review connection pool configuration",
+      "Terminate stuck sessions if required",
+      "Increase connection pool size",
+      "Restart affected application service"
+    ]
+  },
+  {
+    "runbook_id": "RB-002",
+    "title": "Database Deadlock",
+    "category": "database",
+    "steps": [
+      "Inspect database lock tables",
+      "Identify blocking transactions",
+      "Terminate conflicting transaction",
+      "Review transaction ordering",
+      "Reduce transaction scope",
+      "Monitor recurrence"
+    ]
+  },
+  {
+    "runbook_id": "RB-003",
+    "title": "Database Replication Lag",
+    "category": "database",
+    "steps": [
+      "Check replica lag metrics",
+      "Verify network connectivity",
+      "Inspect replication process logs",
+      "Identify heavy write workload",
+      "Scale replica resources",
+      "Validate synchronization recovery"
+    ]
+  },
+  {
+    "runbook_id": "RB-004",
+    "title": "Slow Query Performance",
+    "category": "database",
+    "steps": [
+      "Identify slow queries",
+      "Review execution plans",
+      "Check index utilization",
+      "Add missing indexes",
+      "Optimize query logic",
+      "Measure latency improvement"
+    ]
+  },
+  {
+    "runbook_id": "RB-005",
+    "title": "Kubernetes CrashLoopBackOff",
+    "category": "kubernetes",
+    "steps": [
+      "Inspect pod logs",
+      "Check container startup errors",
+      "Verify environment variables",
+      "Validate secrets and config maps",
+      "Correct configuration issue",
+      "Redeploy workload"
+    ]
+  },
+  {
+    "runbook_id": "RB-006",
+    "title": "Pod Eviction and Node Pressure",
+    "category": "kubernetes",
+    "steps": [
+      "Review node resource utilization",
+      "Identify memory or disk pressure",
+      "Check pod resource requests",
+      "Scale node pool",
+      "Redistribute workloads",
+      "Verify cluster stability"
+    ]
+  },
+  {
+    "runbook_id": "RB-007",
+    "title": "Deployment Failure",
+    "category": "kubernetes",
+    "steps": [
+      "Review deployment events",
+      "Inspect container image version",
+      "Check image registry access",
+      "Verify deployment configuration",
+      "Rollback to previous release",
+      "Validate service health"
+    ]
+  },
+  {
+    "runbook_id": "RB-008",
+    "title": "Redis Memory Pressure",
+    "category": "redis",
+    "steps": [
+      "Check redis memory usage",
+      "Inspect eviction statistics",
+      "Identify oversized keys",
+      "Review cache policy",
+      "Increase cache memory",
+      "Monitor cache hit ratio"
+    ]
+  },
+  {
+    "runbook_id": "RB-009",
+    "title": "Redis Failover Recovery",
+    "category": "redis",
+    "steps": [
+      "Verify redis cluster status",
+      "Check replica synchronization",
+      "Inspect failover logs",
+      "Repair replication topology",
+      "Restore service connectivity",
+      "Validate cache consistency"
+    ]
+  },
+  {
+    "runbook_id": "RB-010",
+    "title": "Cache Stampede",
+    "category": "redis",
+    "steps": [
+      "Identify affected keys",
+      "Review cache expiration settings",
+      "Implement request coalescing",
+      "Apply cache warming strategy",
+      "Increase cache TTL",
+      "Monitor backend load reduction"
+    ]
+  },
+  {
+    "runbook_id": "RB-011",
+    "title": "Kafka Consumer Lag",
+    "category": "kafka",
+    "steps": [
+      "Check consumer lag metrics",
+      "Identify slow consumers",
+      "Inspect consumer processing time",
+      "Increase consumer count",
+      "Rebalance partitions",
+      "Verify lag reduction"
+    ]
+  },
+  {
+    "runbook_id": "RB-012",
+    "title": "Kafka Broker Failure",
+    "category": "kafka",
+    "steps": [
+      "Verify broker availability",
+      "Inspect broker logs",
+      "Check partition leadership",
+      "Restore broker service",
+      "Rebalance cluster",
+      "Validate message flow"
+    ]
+  },
+  {
+    "runbook_id": "RB-013",
+    "title": "Message Queue Saturation",
+    "category": "kafka",
+    "steps": [
+      "Measure queue backlog",
+      "Inspect processing throughput",
+      "Scale worker instances",
+      "Drain backlog safely",
+      "Monitor queue depth",
+      "Validate recovery"
+    ]
+  },
+  {
+    "runbook_id": "RB-014",
+    "title": "Authentication Failure",
+    "category": "security",
+    "steps": [
+      "Check authentication service logs",
+      "Verify certificate validity",
+      "Inspect token signing configuration",
+      "Rotate expired certificates",
+      "Restart authentication services",
+      "Validate user login flow"
+    ]
+  },
+  {
+    "runbook_id": "RB-015",
+    "title": "API Latency Spike",
+    "category": "application",
+    "steps": [
+      "Review latency dashboards",
+      "Identify affected endpoints",
+      "Inspect downstream dependencies",
+      "Check database performance",
+      "Check cache performance",
+      "Apply mitigation and monitor recovery"
+    ]
+  }
+]
